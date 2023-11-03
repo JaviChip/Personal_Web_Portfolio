@@ -190,7 +190,8 @@ nav ul li a:hover::after {
 .tab-contents ul li {
 
     list-style: none;
-    margin: 10px 0;
+    margin: 20px 0;
+   
 }
 
 .tab-contents ul li span{
@@ -203,7 +204,7 @@ nav ul li a:hover::after {
 
 .tab-contents {
 
-display: none;
+    display: none;
 
 }
 
@@ -219,6 +220,8 @@ display: none;
 #services {
 
     padding: 30px 185px;
+
+    margin-bottom: 80px;
 
 }
 
@@ -284,6 +287,13 @@ display: none;
 
     display: inline-block;
 
+
+}
+
+.services-list div p {
+
+
+    font-size: 20px;
 
 }
 
@@ -592,4 +602,10 @@ form .btn2 {
 /*------------------------------ css for small screens --------------- */
 
 
-    
+#msg{
+
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+
+}

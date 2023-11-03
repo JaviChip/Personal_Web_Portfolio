@@ -136,6 +136,8 @@ nav ul li a:hover::after {
 .about-col-2 {
 
     flex-basis: 60%;
+    font-size: 20px;
+
 
 }
 
@@ -151,6 +153,7 @@ nav ul li a:hover::after {
 
     display: flex;
     margin: 20px 0 40px;
+    color:white;
 
 }
 
@@ -465,7 +468,7 @@ display: none;
 
 .contact-right {
 
-    flex-basis: 60%;
+    flex-basis: 0%;
 
 
 }
@@ -557,7 +560,7 @@ form input, form textarea {
 
 }
 
-form btn2 {
+form .btn2 {
 
     padding: 14px 60px;
 
@@ -585,3 +588,8 @@ form btn2 {
 
 
 }
+
+/*------------------------------ css for small screens --------------- */
+
+
+    
